@@ -1,0 +1,7 @@
+{
+	"name": "RhondaVeitsDellXPS",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "This is for a data pipeline to copy data from Rhonda's Dell XPS laptop to the Azure SQL DB."
+	}
+}
