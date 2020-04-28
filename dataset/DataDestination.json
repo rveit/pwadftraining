@@ -1,0 +1,12 @@
+{
+	"name": "DataDestination",
+	"properties": {
+		"description": "Connect to your data destination store.",
+		"linkedServiceName": {
+			"referenceName": "PWAzureTraining_ADB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable"
+	}
+}
