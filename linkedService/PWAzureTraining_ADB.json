@@ -1,0 +1,16 @@
+{
+	"name": "PWAzureTraining_ADB",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "Azure DB connection to \"PWAzureTraining\" db.",
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=aztrainingrveit.database.windows.net;Initial Catalog=PWAzureTraining"
+		},
+		"connectVia": {
+			"referenceName": "RhondaVeitsDellXPS",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
