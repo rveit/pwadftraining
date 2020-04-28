@@ -6,9 +6,9 @@
 		"annotations": [],
 		"type": "SqlServer",
 		"typeProperties": {
-			"connectionString": "integrated security=True;data source=DESKTOP-10QOL;initial catalog=PWAzureTrainingOnPrem",
+			"connectionString": "integrated security=True;data source=\" 73.184.191.105\";initial catalog=PWAzureTrainingOnPrem",
 			"userName": "rhonda.veit@gmail.com",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNTVlM2QzMC1hYmUxLTRmNDMtYmQxMC0xYTJkYzUxZDc2NzgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI4Y2JhZWIxYi1kNTYwLTQyOTItYmM1Ni0xY2ViYjcxYWVkNjEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "RhondaVeitsDellXPS",
