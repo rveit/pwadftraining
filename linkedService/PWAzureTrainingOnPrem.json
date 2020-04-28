@@ -1,0 +1,18 @@
+{
+	"name": "PWAzureTrainingOnPrem",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "A training sql svr db on a local machine instance",
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=True;data source=DESKTOP-10QOL;initial catalog=PWAzureTrainingOnPrem",
+			"userName": "rhonda.veit@gmail.com",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNTVlM2QzMC1hYmUxLTRmNDMtYmQxMC0xYTJkYzUxZDc2NzgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "RhondaVeitsDellXPS",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
