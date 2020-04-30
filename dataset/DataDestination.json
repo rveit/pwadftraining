@@ -7,6 +7,23 @@
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "AzureSqlTable"
+		"type": "AzureSqlTable",
+		"structure": [
+			{
+				"name": "ID",
+				"type": "Int32"
+			},
+			{
+				"name": "FirstName",
+				"type": "String"
+			},
+			{
+				"name": "LastName",
+				"type": "String"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[dbo].[emp]"
+		}
 	}
 }
