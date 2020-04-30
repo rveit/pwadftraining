@@ -7,7 +7,7 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=aztrainingrveit.database.windows.net;initial catalog=PWAzureTraining;user id=rveit",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI0OTc5OGRhNi01MGVmLTRjMTYtYmM3Yi1iYWZlYjQxNTgxZDUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJjMWUyYzE5Yi1jOWQxLTRlZDEtYWI5Ni01ZDk2YmZmMWYxNzEiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "RhondaVeitsDellXPS",
